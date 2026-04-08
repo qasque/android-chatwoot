@@ -7,9 +7,10 @@
 		"cleartext": false
 	},
 	"ios": {
-		"contentInset": "automatic",
+		"contentInset": "never",
 		"preferredContentMode": "mobile",
-		"backgroundColor": "#0f1419"
+		"backgroundColor": "#0f1419",
+		"allowsLinkPreview": false
 	},
 	"android": {
 		"allowMixedContent": false,
@@ -23,6 +24,7 @@
 			"showSpinner": false
 		},
 		"StatusBar": {
+			"overlaysWebView": true,
 			"style": "DARK",
 			"backgroundColor": "#0f1419"
 		}
