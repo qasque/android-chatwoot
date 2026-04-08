@@ -1,14 +1,16 @@
 *.iml
-.gradle
-/local.properties
-/.idea
+.gradle/
+local.properties
+/.idea/
 .DS_Store
-/build
-/app/build
-/captures
-.externalNativeBuild
-.cxx
 *.apk
 *.aab
+*.hprof
+
+# Build output everywhere
 **/build/
-!gradle/wrapper/
+
+# Gradle caches
+.cxx/
+captures/
+.externalNativeBuild/
